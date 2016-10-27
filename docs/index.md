@@ -4,8 +4,8 @@ This serves as a repository of Stratasan's Engineering culture. Our technical do
 
 ## Why document culture?
 
-* By explicitly stating our goals, values and beliefs, our team better will work together and ultimately ship better software
-* This document to help new team members understand how we work and make decisions.
+* By explicitly stating our goals, values and beliefs, our team will better work together and ultimately ship more valuable software.
+* This document should help new team members understand how we work and make decisions.
 * All team members can contribute to this version-controlled document in the same way everyone contributes to our software.
 
 ## Why is this public?
