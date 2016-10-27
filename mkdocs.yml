@@ -2,4 +2,7 @@ site_name: Stratasan Engineering Manual
 pages:
     - Home: index.md
     - Stratasan Core Values: core_values.md
+    - Engineering Values: engineering_core_values.md
+    - Anti-Patterns: engineering_anti_patterns.md
+    - Communication: how_we_communicate.md
 theme: material
