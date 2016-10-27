@@ -1,0 +1,5 @@
+site_name: Stratasan Engineering Manual
+pages:
+    - Home: index.md
+    - Stratasan Core Values: core_values.md
+theme: material
