@@ -12,3 +12,9 @@ mkdocs serve -a localhost:8080 --livereload
 ```
 
 See the mkdocs documentation for more info.
+
+To deploy:
+
+```
+sh deploy.sh
+```
