@@ -31,3 +31,11 @@ should occur via email or GitHub comments.
 
 We document any decisions that are made and actions that are required so that we
 can share them with non-attendees.
+
+### Work Hours
+
+Our company's official business hours are from 8am to 5pm. However, in order to
+reduce the amount of time in traffic some of our team shifts those hours around
+(.g., from 7-4 or even 9-6). Team members should communicate their availability
+with the rest of the company in order to alleviate any concerns about
+scheduling.
