@@ -16,13 +16,16 @@ should occur via email or GitHub comments.
   10-15 minutes, we let others know by communicating how long we expect to be
   gone and how to reach us in an emergency.
 
-### GitHub
+### Git and GitHub
 
+- Good commit messages [matter](http://chris.beams.io/posts/git-commit/).
 - Comments should @tag anyone whose response is required.
 - When PRs are ready, they should be assigned to someone.
     - Assignment does not necessarily mean the assignee must review it, but
       rather the assignee should determine who is best qualified to review the
       PR and merge it.
+    - ThoughtBot has a great description of [what a code review should consist
+    of](https://github.com/thoughtbot/guides/tree/master/code-review).
 - PRs that are not complete are unassigned and generally have "[WIP]" in the
   title.
 - We use [ZenHub](http://zenhub.io) for managing ticket priority.
