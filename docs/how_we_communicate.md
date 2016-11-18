@@ -34,15 +34,14 @@ should occur via email or GitHub comments.
   tag/mention anyone whose response is required. Then that person is notified
   and subscribed to future updates. To do this, enter `@` and start typing their
   GitHub username. [Here are more instructions](https://github.com/blog/821-mention-somebody-they-re-notified).
-- Some considerations for pull requests
 - When creating a pull request:
-  - We can omit the originator ticket number from the subject line since the link will activate in the pull request description.
-  - It's also a nice convention to make the subject line describe what you're
-    fixing. For example, "Fix overview link color". We think of it like a commit
-    message, because ultimately it becomes one when we squash it.
-  - We include "Closes #3771" or "Fixes #3771" in the pull request description,
-    where "3771" is the originator ticket. This will close the originator ticket
-    when the pull request is closed.
+    - We can omit the originator ticket number from the subject line since the link will activate in the pull request description.
+    - It's also a nice convention to make the subject line describe what you're
+      fixing. For example, "Fix overview link color". We think of it like a commit
+      message, because ultimately it becomes one when we squash it.
+    - We include "Closes #3771" or "Fixes #3771" in the pull request description,
+      where "3771" is the originator ticket. This will close the originator ticket
+      when the pull request is closed.
 - Pull requests that are not complete are unassigned and generally have "[WIP]"
   (short for work in progress) in the title and/or utilize [GitHub's to do list functionality](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613).
 <!-- - We define a pull request as ready when... -->
