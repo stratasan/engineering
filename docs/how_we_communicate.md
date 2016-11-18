@@ -4,7 +4,7 @@ Most of our communication is over Slack. Given that we are a distributed team,
 we work to communicate availability in a manner considerate to our teammates.
 
 We also work to make sure that important decisions are well-documented. Chat is,
-generally speaking, more ephemereal so most important developer conversations
+generally speaking, more ephemeral so most important developer conversations
 should occur via email or GitHub comments.
 
 ### Slack Considerations
