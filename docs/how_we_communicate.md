@@ -1,5 +1,6 @@
 # How We Communicate
 
+## Slack
 Most of our communication is over Slack. Given that we are a distributed team,
 we work to communicate availability in a manner considerate to our teammates.
 
@@ -16,7 +17,7 @@ should occur via email or GitHub comments.
   10-15 minutes, we let others know by communicating how long we expect to be
   gone and how to reach us in an emergency.
 
-### Git and GitHub
+## Git and GitHub
 
 - Good commit messages [matter](http://chris.beams.io/posts/git-commit/).
 - Comments should @tag anyone whose response is required.
@@ -30,12 +31,12 @@ should occur via email or GitHub comments.
   title.
 - We use [ZenHub](http://zenhub.io) for managing ticket priority.
 
-### Meetings
+## Meetings
 
 We document any decisions that are made and actions that are required so that we
 can share them with non-attendees.
 
-### Work Hours
+## Work Hours
 
 Our company's official business hours are from 8am to 5pm. However, in order to
 reduce the amount of time in traffic some of our team shifts those hours around
