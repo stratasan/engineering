@@ -9,7 +9,7 @@ should occur via email or GitHub comments.
 
 ### Slack Considerations
 
-- We set up DnD outside of work hours, so generally if the need is urgent we
+- We default Slack's do not disturb settings to be outside of work hours. Generally, if the need is urgent, we
   communicate via text messages.
 - If we are going to be
   [AFK](http://www.internetslang.com/AFK-meaning-definition.asp) for more than
