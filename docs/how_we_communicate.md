@@ -11,8 +11,8 @@ should occur via email or GitHub comments.
 
 - We default Slack's do not disturb settings to be outside of work hours. Generally, if the need is urgent, we
   communicate via text messages.
-- If we are going to be away from keyboard
-  ([AFK](http://www.internetslang.com/AFK-meaning-definition.asp)) for more than
+- If we are going to be [away from keyboard
+  (AFK)](http://www.internetslang.com/AFK-meaning-definition.asp) for more than
   10-15 minutes, we let others know by communicating how long we expect to be
   gone and how to reach us in an emergency.
 
