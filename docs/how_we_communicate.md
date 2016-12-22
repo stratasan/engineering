@@ -24,12 +24,20 @@ should occur via email or GitHub comments.
 - We measure GitHub ticket estimations based on effort/difficulty/complexity,
   more so than based on time to complete the ticket. We use this scale for
   assigning GitHub ticket estimations:
-    - 0.5 = a few minutes
-    - 1 = half a day
-    - 2 = two days
-    - 3 = half a week
-    - 5 = a week
-    - 8 = around two weeks
+
+Points  | Estimate
+------- | --------------------
+0.5     | Less than half a day.
+1       | A day or so.
+3       | About half a week
+5       | About a week
+8       | Around two weeks.
+13      | Probably should be broken up into multiple issues.
+
+- More thoughts on scoping:
+    1. We generally want to estimate an issue before putting it into the backlog.
+    1. During the initial estimate, If we uncover new things that _significantly_ expand the scope of the original issue, we will split it into multiple issues and maybe convert the original issue to an epic) and those new issues get estimates.
+    1. If an issue has already been estimated and work has begun on it, we generally do not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example).
 - GitHub comments within a ticket or pull request (often called PR) should 
   tag/mention anyone whose response is required. Then that person is notified
   and subscribed to future updates. To do this, enter `@` and start typing their
