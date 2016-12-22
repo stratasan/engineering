@@ -27,12 +27,12 @@ should occur via email or GitHub comments.
 
 Points  | Estimate
 ------- | --------------------
-0.5     | Less than half a day.
-1       | A day or so.
+0.5     | Less than half a day
+1       | A day or so
 3       | About half a week
 5       | About a week
-8       | Around two weeks.
-13      | Probably should be broken up into multiple issues.
+8       | Around two weeks
+13      | Probably should be broken up into multiple issues
 
 - More thoughts on scoping:
     1. We generally want to estimate an issue before putting it into the backlog.
