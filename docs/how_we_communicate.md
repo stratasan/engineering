@@ -36,7 +36,7 @@ Points  | Estimate
 
 - More thoughts on scoping:
     1. We generally want to estimate an issue before putting it into the backlog.
-    1. During the initial estimate, If we uncover new things that _significantly_ expand the scope of the original issue, we will split it into multiple issues and maybe convert the original issue to an epic) and those new issues get estimates.
+    1. During the initial estimate, if we uncover new things that _significantly_ expand the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
     1. If an issue has already been estimated and work has begun on it, we generally do not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example).
 - GitHub comments within a ticket or pull request (often called PR) should 
   tag/mention anyone whose response is required. Then that person is notified
