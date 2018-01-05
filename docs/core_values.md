@@ -18,9 +18,9 @@ We try to see other people’s perspective prior to sharing ours. We make a deli
 We believe it’s important to start from the assumption that people are good and that the intent behind their action is positive. We believe this builds stronger and more trusting relationships.
 
 
-## Punch above your weight class
+## We'll figure it out
 
-We grow by doing things that challenge us.  We believe success favors the bold; we encourage our team to continually stretch their comfort zone. Good athletes become great by competing against those better than them.
+We may not immediately have the answer to a question or solution to a problem, but we are always committed to finding one. We believe most challenges can become great opportunites - with a little brainstorming, thoughtful conversation, and a resourceful attitude. Whatever comes our way, _we'll figure it out_.
 
 
 ## Our success is my success
