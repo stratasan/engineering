@@ -52,7 +52,6 @@ Points  | Estimate
       when the pull request is closed.
 - Pull requests that are not complete are unassigned and generally have "[WIP]"
   (short for work in progress) in the title and/or utilize [GitHub's to do list functionality](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613).
-<!-- - We define a pull request as ready when... -->
 - When pull requests are ready, they should be assigned to someone.
     - We want to assign the pull request to the person who is best qualified to
       verify and test (like front end vs back end).
@@ -73,6 +72,25 @@ Points  | Estimate
   to have at least another set of eyes on it before merging. We can deploy to
   staging and verify the fix there. For now, whoever is doing the review / test,
   does the deploying to staging, but eventually all developers will be able to.
+- More thoughts on the assignment of Pull Requests:
+  - Ideally, at all times PRs have a single person assigned to them. This is to signal
+    who is necessary to finish this PR.
+  - This means that if you are currently working on a PR, you should assign yourself.
+  - If you feel the PR is ready for other eyes, assign that person to the PR. Consider
+    this a means of "pushing" the work to them, rather than requiring to "pull" it from
+    you.
+  - If, during the course of a code review, the reviewer feels there are necessary changes
+    required before merging, those comments should be delivered in either the form of an
+    official GitHub review or comments on particular lines in the "Files Changed" tab.
+    Doing one or both of these provides a meaningful artifact and provides status (e.g.
+    "Oh this PR has been reviewed with 'Changes Requested'"). When this is done, the reviewer
+    should re-assign the PR to the developer who created the PR, again pushing to the
+    work back to them.
+  - Following the above guidelines means that at any given time, a developer can look at
+    the Pull Request list page and look for their icon to discover where they are needed.
+    This is better and more asynchronous than having to ask in Slack "does anybody need
+    anything from me?". It also makes minimizing the number of places our GitHub icon
+    appears our ongoing work.
 
 ## Meetings
 
