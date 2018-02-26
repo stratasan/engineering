@@ -7,7 +7,7 @@ node('ec2') {
     try {
       stage('Deploy') {
         docker.image('python:3.6-alpine').inside("-u 0") {
-          sh '''#!/bin/bash -ex
+          sh '''
           pip install -r requirements.txt
           ./deploy.sh
           '''
@@ -17,10 +17,8 @@ node('ec2') {
 
     } catch (err) {
       currentBuild.result = 'FAILURE'
-      notifier.notifyError(err)
       throw err
     } finally {
-      notifier.notifyResult()
       node('master') {
         logstashSend failBuild: false
       }
