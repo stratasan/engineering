@@ -37,5 +37,9 @@ To build this project, we will use Python 3 and virtualenv
   sh deploy.sh
   ```
 
+## Note
+
+Jenkins builds this site on merges to master, deploy docs above are less necessary now.
+
 # More Info
 * This project is built with the tool [MkDocs documentation](http://www.mkdocs.org/)
