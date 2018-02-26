@@ -1,7 +1,3 @@
-# Live Site
-
-[http://engineering.stratasan.com](http://engineering.stratasan.com)
-
 # Installation Instructions
 
 To build this project, we will use Python 3 and virtualenv
