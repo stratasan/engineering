@@ -1,7 +1,8 @@
-#Live Site
+# Live Site
+
 [http://engineering.stratasan.com](http://engineering.stratasan.com)
 
-#Installation Instructions
+# Installation Instructions
 
 To build this project, we will use Python 3 and virtualenv
 
@@ -40,5 +41,5 @@ To build this project, we will use Python 3 and virtualenv
   sh deploy.sh
   ```
 
-#More Info
+# More Info
 * This project is built with the tool [MkDocs documentation](http://www.mkdocs.org/)
