@@ -54,7 +54,9 @@ Points  | Estimate
       when the pull request is closed.
 - Pull requests that are not complete are unassigned and generally have "[WIP]"
   (short for work in progress) in the title and/or utilize [GitHub's to do list functionality](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613).
-- When pull requests are ready, they should be assigned to someone and viewable from the cross-repo [Pull Requests Assigned To Me](https://github.com/pulls/assigned) page.
+- When pull requests are ready, they should be assigned to someone.
+    - Generally speaking, any [pull request created by you](https://github.com/pulls?user%3Astratasan) that's not a work in progress should be assigned to someone for review.
+    - GitHub makes it easy to see [all pull requests currently assigned to you](https://github.com/pulls/assigned/?user%3Astratasan) or [pending your review](https://github.com/pulls/review-requested?user=stratasan).
     - We want to assign the pull request to the person who is best qualified to
       verify and test (like front end vs back end).
     - We assign a pull request to someone (vs. tagging, Slacking, etc) because
