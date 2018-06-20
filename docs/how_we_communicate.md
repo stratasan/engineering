@@ -96,6 +96,30 @@ Points  | Estimate
     anything from me?". It also makes minimizing the number of places our GitHub icon
     appears our ongoing work.
 
+### Issues vs Pull-Requests
+
+Obviously, Issues and Pull-Requests (PRs) are different things but it's important to know what
+we expect when documenting both. Issues describe new or desired behavior from a
+**product** perspective. By closing an issue via a PR, we have improved the value of the
+software we build for the business either by adding a feature, fixing a bug or improving
+the maintainability of the application. Issues bodies are not required to specify the
+particular code in question, though e.g. it may be helpful while discovering the root
+cause of a bug to document where the errant behavior was found to begin.
+
+Pull-Requests are the developer's attempt to address an Issue and hence take a different
+perspective. They should be written for other developers with the express intent to communicate
+why **these particular changes were made**. During the course of any particular issue, there
+will be many ways to address the Issue and it's our job to make the most-correct decision
+for the business. This involves balancing these attributes (mostly in this order):
+
+* Read- and maintainability of the changes. Can other developers understand what's going on? Difficult and/or subtle changesets likely require *more* explanation.
+* Does it sufficiently address the issue and how have you demonstrated that? Have you communicated edge cases with stakeholders? Do you understand the edge cases?
+* Have you appropriately balanced the value of the PR with the cost of it? As an extreme example, a one-line template change does not require introducing a new template engine.
+* Does it make sense from the perspective of the codebase? If existing functionality exists elsewhere in the codebase, do you know about it, followed those patterns and/or built an abstraction to cover both? If you didn't build an abstraction layer, why not? Hint, it's not always useful to build abstractions.
+
+As we write and submit Pull-Requests, keep the above in the back of your mind. After all, it is
+not our job to write code but rather solve business problems.
+
 ## Meetings
 
 We document any decisions that are made and actions that are required so that we
