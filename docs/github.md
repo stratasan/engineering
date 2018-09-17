@@ -22,9 +22,6 @@ Points  | Estimate
 8       | Around two weeks
 13      | Probably should be broken up into multiple issues
 
-
-## GitHub Issues
-
 1. We generally want to estimate an issue before putting it into the backlog.
 1. During the initial estimate, if we uncover new things that _significantly_ expand
    the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
@@ -44,7 +41,11 @@ Points  | Estimate
    added complexity.
     - This is required for issues of 5 points and above.
 
-### What makes an issue ready?
+## GitHub Issues
+
+Issues are the primary unit of work for our development team. They provide a wealth of information about the work to be done, why we do it, and what it takes for the work to be accepted.
+
+### What makes an issue ready for the development backlog?
 
 Our product management team will often create issues to define new features. For these to be considered development-ready, the following requirements must be met:
 
