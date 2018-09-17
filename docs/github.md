@@ -22,12 +22,11 @@ Points  | Estimate
 8       | Around two weeks
 13      | Probably should be broken up into multiple issues
 
-1. We generally want to estimate an issue before putting it into the backlog.
-1. During the initial estimate, if we uncover new things that _significantly_ expand
+- During the initial estimate, if we uncover new things that _significantly_ expand
    the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
-1. If an issue has already been estimated and work has begun on it, we generally do
+- If an issue has already been estimated and work has begun on it, we generally do
    not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example).
-1. As points increase on an issue, there is more necessity for a design document.
+- As points increase on an issue, there is more necessity for a _design document_.
    This document outlines the plan of attack for addressing an issue. No code is
    required in this document. Instead, we're looking for a description of the
    problem, the code paths involved (ie how things are kicked off, whether in web
@@ -39,7 +38,7 @@ Points  | Estimate
    build a plan to fix it, you'll have built a well-defined mental map in your head
    and can demonstrate how your solution effectively addresses the issue with minimal
    added complexity.
-    - This is required for issues of 5 points and above.
+    - A design document is required for issues of 5 points and above.
 
 ## GitHub Issues
 
