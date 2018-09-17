@@ -1,6 +1,6 @@
 # Growth and Challenge
 
-Growth in our careers is directily proportional to the scale of problems
+Growth in our careers is directly proportional to the scale of problems
 we can effectively solve. To grow, we must advocate for ever-larger problems
 and continually learn how to approach and solve them.
 
