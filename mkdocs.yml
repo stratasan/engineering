@@ -9,5 +9,5 @@ pages:
     - Communication: how_we_communicate.md
     - Follow-Through and Ownership: ownership.md
     - Project Management: github.md
->>>>>>> origin/master
+    - Providing Support: support.md
 theme: material
