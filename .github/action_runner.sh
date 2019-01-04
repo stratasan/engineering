@@ -2,6 +2,8 @@
 # liberally stolen from https://github.com/actions/bin/blob/master/sh/entrypoint.sh
 
 for cmd in "$@"; do
+    echo
+    echo
     echo "Running '$cmd'..."
     if sh -c "$cmd"; then
         # no op
