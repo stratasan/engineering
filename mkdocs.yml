@@ -11,3 +11,4 @@ pages:
     - Project Management: github.md
     - Providing Support: support.md
 theme: material
+copyright: Made with love by Stratasan Developers. Built and deployed via GH Actions.
