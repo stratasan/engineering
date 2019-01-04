@@ -1,9 +1,4 @@
-workflow "CI" {
-    on = "push"
-    resolves = ["build"]
-}
-
-workflow "CD" {
+workflow "CI/CD" {
     on = "push"
     resolves = ["deploy"]
 }
@@ -17,8 +12,14 @@ action "build" {
     ]
 }
 
-action "deploy" {
+action "is-master" {
     needs = ["build"]
+    uses = "actions/bin/filter@master"
+    args = "branch master"
+}
+
+action "deploy" {
+    needs = ["is-master"]
     uses = "actions/aws/cli@master"
     args = "s3 sync ./site s3://engineering.stratasan.com/ --acl public-read --cache-control \"public, max-age=86400\""
     secrets = [
