@@ -33,7 +33,8 @@ from posting to posting, this is our general process.
 5. Then we'll build a schedule lasting no more than half a day to 1) discuss
    your work, 2) pair-program with a team member, 3) meet more of the team and
    4) meet our CEO. We will do this both for candidates local to Nashville and
-      remote candidates.
+   remote candidates. Remotely, we'll use Google Hangouts to share screens and
+   chat with the team.
 6. Based on the "on-site" and previous steps, we'll determine candidates that we
    feel will be most successful at Stratasan and provide overviews of our
    benefits and discuss concrete compensation packages. At this point we'll ask
