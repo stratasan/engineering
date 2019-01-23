@@ -10,5 +10,6 @@ pages:
     - Follow-Through and Ownership: ownership.md
     - Project Management: github.md
     - Providing Support: support.md
+    - How We Hire: how-we-hire.md
 theme: material
 copyright: Made with love by Stratasan Developers. Built and deployed via GH Actions.
