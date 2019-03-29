@@ -12,4 +12,4 @@ pages:
     - Providing Support: support.md
     - How We Hire: how-we-hire.md
 theme: material
-copyright: Made with love by Stratasan Developers and PyNash. Built and deployed via GH Actions.
+copyright: Made with love by Stratasan Developers. Built and deployed via GH Actions.
