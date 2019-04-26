@@ -44,3 +44,5 @@ about scheduling.
   you should not work remotely that day.
 - When working remote, it is your responsibility to request call-in numbers
   and/or video conferencing links for meetings in advance whenever possible.
+- Make sure you are familiar with our [Remote Work Policy](https://docs.google.com/document/d/1eCmUvFDMOIAwf9nsTMLBPPlTZfWSu1GzQhPpS77hiM0/edit).
+  This provides details on how to keep your devices and work environment secure.
