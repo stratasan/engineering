@@ -1,6 +1,7 @@
 # How We Communicate
 
 ## Slack
+
 Most of our communication is over Slack. Given that we are a distributed team,
 we work to communicate availability in a manner considerate to our teammates.
 
@@ -8,7 +9,7 @@ We also work to make sure that important decisions are well-documented. Chat is,
 generally speaking, more ephemeral so most important developer conversations
 should occur via email or GitHub comments.
 
-### Slack Considerations
+### Slack considerations
 
 - We default Slack's do not disturb settings to be outside of work hours.
   Generally, if the need is urgent, we communicate via text messages.
@@ -22,7 +23,7 @@ should occur via email or GitHub comments.
 We document any decisions that are made and actions that are required so that we
 can share them with non-attendees.
 
-## Work Hours
+## Work hours
 
 Our company's official business hours are from 8am-5pm. However, in order to
 reduce the amount of time in traffic, some of our team shifts those hours around
@@ -30,7 +31,7 @@ reduce the amount of time in traffic, some of our team shifts those hours around
 availability with the rest of the company in order to alleviate any concerns
 about scheduling.
 
-## Working Remote
+## Working remote
 
 - The development team typically works remote once a week on Thursdays.
 - Working remotely at other times is allowed with approval from your manager.
@@ -44,5 +45,5 @@ about scheduling.
   you should not work remotely that day.
 - When working remote, it is your responsibility to request call-in numbers
   and/or video conferencing links for meetings in advance whenever possible.
-- Make sure you are familiar with our [Remote Work Policy](https://docs.google.com/document/d/1eCmUvFDMOIAwf9nsTMLBPPlTZfWSu1GzQhPpS77hiM0/edit).
+- Make sure you are familiar with our [remote work policy](https://docs.google.com/document/d/1eCmUvFDMOIAwf9nsTMLBPPlTZfWSu1GzQhPpS77hiM0/edit).
   This provides details on how to keep your devices and work environment secure.
