@@ -1,4 +1,4 @@
-# Growth and Challenge
+# Growth
 
 Growth in our careers is directly proportional to the scale of problems
 we can effectively solve. To grow, we must advocate for ever-larger problems
@@ -6,10 +6,10 @@ and continually learn how to approach and solve them.
 
 Stratasan has a high level of commitment to support our employees' ongoing
 education and career growth. However, actually making use of this is our own
-indvidual responsibility. This may include spending personal time on learning
+individual responsibility. This may include spending personal time on learning
 new tools and processes outside of our normal working hours.
 
-An implication of this is that over time, an invididual should be able to close
+An implication of this is that over time, an individual should be able to close
 similarly sized issues more quickly and/or complete larger issues in the same
 time. Of course it's difficult to directly compare any two issues but we're
 talking in the ideal sense here.
