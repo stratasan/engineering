@@ -4,6 +4,8 @@
 
 We do continuous delivery rather than sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline. We communicate what work has been done through the product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
 
+While we deploy early and often, that does not mean we like to provide a buggy or unstable experience for users. We liberally use [feature flags](https://en.wikipedia.org/wiki/Feature_toggle) to separate the concerns of deploying code from releasing it to users. As we test and gather feedback about new functionality in production, we communicate with the Product team about the state of work-in-progress. In a perfect world, the release of a product or feature globally across our applications is a non-event for the development team.
+
 ## Delivery expectations
 
 We aim to make expectations clear, but if ever they are not and some work might take longer because of that, we don't play the blame game - we adjust expectations for those waiting on the release of that work; we learn from it and aim to improve the process for next time.
