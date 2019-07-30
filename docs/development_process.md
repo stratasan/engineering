@@ -2,7 +2,7 @@
 
 ## Approach
 
-We do continuous delivery rather than sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline. We communicate what work has been done through the product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
+We do continuous delivery rather than sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline. We communicate what work has been done through the Product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
 
 While we deploy early and often, that does not mean we like to provide a buggy or unstable experience for users. We liberally use [feature flags](https://en.wikipedia.org/wiki/Feature_toggle) to separate the concerns of deploying code from releasing it to users. As we test and gather feedback about new functionality in production, we communicate with the Product team about the state of work-in-progress. In a perfect world, the release of a product or feature globally across our applications is a non-event for the development team.
 
@@ -58,7 +58,7 @@ Issues are the primary unit of work for our development team. They provide a wea
 
 ### What makes an issue ready for the development backlog?
 
-Our product management team will often create issues to define new features. For these to be considered development-ready, the following requirements must be met:
+Our Product team will often create issues to define new features. For these to be considered development-ready, the following requirements must be met:
 
 - The "Why" must be clear.
 - [Acceptance criteria](https://nomad8.com/acceptance_criteria/) must be provided.
