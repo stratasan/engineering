@@ -10,15 +10,15 @@ from posting to posting, this is our general process.
    We're also actively identifying ways to spread it beyond our network in an
    attempt to find candidates that wouldn't normally think about applying to
    Stratasan. We normally don't work with recruiters as we don't see the value.
-2. Based on the rate of responses, we'll keep this posting up for 2-4 weeks
+1. Based on the rate of responses, we'll keep this posting up for 2-4 weeks
    though perhaps longer.
-3. During this time, we'll conduct phone interviews with candidates meeting the
+1. During this time, we'll conduct phone interviews with candidates meeting the
    minimal qualifications. This phone call is a behavioral interview and we'll
    ask questions that don't have right or wrong answers but are designed to get
    at the candidate's opinions and previous experience. Example questions might
    be "Describe your ideal deployment pipeline" or "Tell us about a time a
    release you were involved with didn't go to plan".
-4. Based on these conversations, we'll invite a few candidates to participate in
+1. Based on these conversations, we'll invite a few candidates to participate in
    a project. For developer roles, we'll take an existing issue from our issue
    tracker, build a development environment and let the candidate tackle the
    issue. This serves to let us see how they approach problems and gives the
@@ -30,13 +30,13 @@ from posting to posting, this is our general process.
    do work for free. If a candidate has time constraints outside of normal
    business hours, we'll work with them to find a good time to complete the
    work.
-5. Then we'll build a schedule lasting no more than half a day to 1) discuss
-   your work, 2) pair-program with a team member, 3) meet more of the team and
-   4) meet our CEO. We will do this both for candidates local to Nashville and
+1. Then we'll build a schedule lasting no more than half a day to 1) discuss
+   your work, 2) pair-program with a team member, 3) meet more of the team, and 4)
+   meet our CEO. We will do this both for candidates local to Nashville and
    remote candidates. When an interview needs to be remote, we'll use Google
    Hangouts to share screens and chat with the team.
-6. Based on the "on-site" and previous steps, we'll determine candidates that we
+1. Based on the "on-site" and previous steps, we'll determine candidates that we
    feel will be most successful at Stratasan and provide overviews of our
    benefits and discuss concrete compensation packages. At this point we'll ask
    for references and follow-up with those provided.
-7. We'll extend offers upon agreement of compensation and reference checks.
+1. We'll extend offers upon agreement of compensation and reference checks.

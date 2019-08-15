@@ -1,15 +1,16 @@
 site_name: Stratasan Engineering Manual
 pages:
-    - Home: index.md
-    - Stratasan Core Values: core_values.md
-    - Engineering Values: engineering_core_values.md
-    - Anti-Patterns: engineering_anti_patterns.md
-    - Growth: growth.md
-    - Figuring It Out: figuring-it-out.md
-    - Communication: how_we_communicate.md
-    - Follow-Through and Ownership: ownership.md
-    - Project Management: github.md
-    - Providing Support: support.md
-    - How We Hire: how-we-hire.md
+  - Home: index.md
+  - Stratasan Core Values: core_values.md
+  - Engineering Core Values: engineering_core_values.md
+  - Anti-Patterns: engineering_anti_patterns.md
+  - Growth: growth.md
+  - Figuring It Out: figuring-it-out.md
+  - Communication: how_we_communicate.md
+  - Follow-Through and Ownership: ownership.md
+  - Development Process: development_process.md
+  - Providing Support: support.md
+  - How We Hire: how-we-hire.md
+  - On-Boarding: onboarding.md
 theme: material
 copyright: Made with love by Stratasan Developers. Built and deployed via GH Actions.
