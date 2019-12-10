@@ -31,16 +31,15 @@ reduce the amount of time in traffic, some of our team shifts those hours around
 availability with the rest of the company in order to alleviate any concerns
 about scheduling.
 
-## Working remote
+## Distributed teams
 
-- The development team typically works remote once a week on Thursdays.
-- Working remotely at other times is allowed with approval from your manager.
-- On remote work days, we generally send a greeting and parting message in
-  Slack. Emoji messages with a hand waving or sunrise also work. This is the
-  equivalent of walking into the office in the morning - it helps us know when
-  our teammates are online. We also let each other know when we're going to be
-  away for lunch. See "away from keyboard" note above.
-- When working remote, it is your responsibility to make sure that your meetings
+- As a partially-distributed team we work to communicate availability via Slack.
+  For example, we say hello when we come online and goodbye when we head out for
+  the day (usually on #dev). Furthermore, we let our team know when we're going to
+  step away for an extended time, whether for lunch, going heads down on a project
+  for a while, or other reasons.
+- The Nashville-located development team typically works remote once or twice a week.
+- If you're in Nashville, it is your responsibility to make sure that your meetings
   for the day do not require you to be physically present for them. If they do,
   you should not work remotely that day.
 - When working remote, it is your responsibility to request call-in numbers
