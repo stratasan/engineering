@@ -26,4 +26,4 @@ We support one another, strive for the success of the team, and recognize nothin
 
 ## Show up and don’t quit
 
-Whatever we are doing at Stratasan, we must first consciously show ip; and when things are difficult we must convince ourselves don’t quit.
+Whatever we are doing at Stratasan, we must first consciously show up; and when things are difficult we must convince ourselves don’t quit.
