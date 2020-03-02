@@ -19,7 +19,7 @@ action "is-master" {
 
 action "deploy" {
     needs = ["build", "is-master"]
-    uses = "actions/aws/cli@master"
+    uses = "actions/checkout@master"
     args = "s3 sync ./site s3://engineering.stratasan.com/ --acl public-read --cache-control \"public, max-age=86400\""
     secrets = [
         "AWS_ACCESS_KEY_ID",
