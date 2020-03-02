@@ -17,7 +17,7 @@ jobs:
         entrypoint: ./.github/action_runner.sh
         args: '"pip install -r requirements.txt" "mkdocs build --clean"'
     - name: deploy
-      uses: actions/aws/cli@master
+      uses: actions/checkout@master
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
