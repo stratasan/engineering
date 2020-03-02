@@ -11,15 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: build
-      uses: docker://python:3.6-alpine
+    - name: setup python
+      uses: actions/setup-python@v1
       with:
-        entrypoint: ./.github/action_runner.sh
-        args: '"pip install -r requirements.txt" "mkdocs build --clean"'
+        python-version: '3.7.x'
+    - name: build site
+      run: |
+        pip install -r requirements.txt
+        mkdocs build --clean
     - name: deploy
-      uses: actions/checkout@master
+      run: |
+        aws s3 sync ./site s3://engineering.stratasan.com/ --acl public-read --cache-control "public,max-age=86400"
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      with:
-        args: s3 sync ./site s3://engineering.stratasan.com/ --acl public-read --cache-control "public,max-age=86400"
