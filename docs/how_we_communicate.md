@@ -9,6 +9,24 @@ We also work to make sure that important decisions are well-documented. Chat is,
 generally speaking, more ephemeral so most important developer conversations
 should occur via email or GitHub comments.
 
+*As a general rule:*
+
+- Slack channels are for messages for teams that do not require an immediate
+  response, think 1-3 hours. (see our [Slack Usage
+  Guide](https://docs.google.com/document/d/1a1713dQdCn-3_UYn4GGd4aPwOtJTtx2mlRu1cx7cyh8/edit)
+  for ways to manage Slack usage).
+- Texting a mobile device is for messages that require a response as soon as
+  possible (team members are strongly encouraged to keep their mobile number
+  on their Slack profile).
+- Email is for longer, cross-departmental conversations that should have a
+  written, searchable record (e.g., decisions, requests to access data).
+- Google Documents are for documenting processes to share with other team
+  members, particularly in other departments.
+- GitHub is for discussions internal to the engineering (and sometimes product
+  management) teams.
+- Video conferencing (Google Hangouts or Slack video calls) are for
+  real-time collaboration.
+
 ### Slack considerations
 
 - We default Slack's do not disturb settings to be outside of work hours.
