@@ -25,7 +25,9 @@ should occur via email or GitHub comments.
 - GitHub is for discussions internal to the engineering (and sometimes product
   management) teams.
 - Video conferencing (Google Hangouts or Slack video calls) are for
-  real-time collaboration.
+  real-time collaboration that requires high-bandwidth commnication. It's also
+  for staying well-connected to each other! Face-to-face communication,
+  especially for remote-only team members, is important to our team cohesion.
 
 ### Slack considerations
 
