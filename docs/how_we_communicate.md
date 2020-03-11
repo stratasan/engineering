@@ -1,5 +1,27 @@
 # How We Communicate
 
+*As a general rule:*
+
+- *Slack channels are for* messages for teams that do not require an immediate
+  response, think 1-3 hours. (see our [Slack Usage
+  Guide](https://docs.google.com/document/d/1a1713dQdCn-3_UYn4GGd4aPwOtJTtx2mlRu1cx7cyh8/edit)
+  for ways to manage Slack usage).
+- *Texting a mobile device is for* messages that require a response as soon as
+  possible (team members are strongly encouraged to keep their mobile number
+  on their Slack profile).
+- *Email is for* longer, cross-departmental conversations that should have a
+  written, searchable record (e.g., decisions, requests to access data).
+- *Google Documents are for* documenting processes to share with other team
+  members, particularly in other departments.
+- *GitHub is for* discussions internal to the engineering (and sometimes product
+  management) teams. It's considered best practice to link to relevant Slack
+  conversations or other documentation where available.
+- *Video conferencing (Google Hangouts or Slack video calls) are for*
+  real-time collaboration that requires high-bandwidth communication. It's also
+  for staying well-connected to each other! Face-to-face communication,
+  especially for remote-only team members, is important to our team cohesion.
+
+
 ## Slack
 
 Most of our communication is over Slack. Given that we are a distributed team,
@@ -11,6 +33,9 @@ should occur via email or GitHub comments.
 
 ### Slack considerations
 
+- We generally chat on public channels rather than private DMs because
+  conversations might have value to others or to our future selves (since we pay
+  for Slack's history retention).
 - We default Slack's do not disturb settings to be outside of work hours.
   Generally, if the need is urgent, we communicate via text messages.
 - If we are going to be [away from keyboard
