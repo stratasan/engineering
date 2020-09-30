@@ -3,6 +3,7 @@ pages:
   - Home: index.md
   - Stratasan Core Values: core_values.md
   - Engineering Core Values: engineering_core_values.md
+  - Software Development Life Cycle: software_development_life_cycle.md
   - Anti-Patterns: engineering_anti_patterns.md
   - Growth: growth.md
   - Figuring It Out: figuring-it-out.md
