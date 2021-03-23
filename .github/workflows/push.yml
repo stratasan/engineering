@@ -6,8 +6,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
-    - name: build
-      uses: docker://python:3.7-alpine
+    - name: setup python
+      uses: actions/setup-python@v1
       with:
-        entrypoint: ./.github/action_runner.sh
-        args: '"pip install -r requirements.txt" "mkdocs build --clean"'
+        python-version: '3.7.x'
+    - name: build site
+      run: |
+       pip install -r requirements.txt
+       mkdocs build --clean
