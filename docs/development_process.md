@@ -2,7 +2,9 @@
 
 ## Approach
 
-We do continuous delivery rather than sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline. We communicate what work has been done through the Product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
+We deploy with continuous delivery. We plan work in sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline.
+
+We communicate what work has been done through the Product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
 
 While we deploy early and often, that does not mean we like to provide a buggy or unstable experience for users. We liberally use [feature flags](https://en.wikipedia.org/wiki/Feature_toggle) to separate the concerns of deploying code from releasing it to users. As we test and gather feedback about new functionality in production, we communicate with the Product team about the state of work-in-progress. In a perfect world, the release of a product or feature globally across our applications is a non-event for the development team.
 
@@ -14,30 +16,30 @@ We aim to make expectations clear, but if ever they are not and some work might 
 
 Good commit messages [matter](http://chris.beams.io/posts/git-commit/).
 
-## ZenHub
+## Jira
 
-We use [ZenHub](http://zenhub.io) for managing ticket priority. This allows us to
+We use [Jira](http://jira.atlassian.net) for managing ticket priority. This allows us to
 visualize and prioritize our work using
-[Kanban](https://en.wikipedia.org/wiki/Kanban). It also allows us to add estimates
+scrum. It also allows us to add estimates
 to work in the form of story points.
 
-We apply story points based on effort/difficulty/complexity, which has only a loose
-correlation to time to finish. We use this scale for assigning GitHub ticket
-estimations:
+## Jira issues
 
-| Points | Estimate                                          |
-| ------ | ------------------------------------------------- |
-| 0.5    | Less than half a day                              |
-| 1      | A day or so                                       |
-| 3      | About half a week                                 |
-| 5      | About a week                                      |
-| 8      | Around two weeks                                  |
-| 13     | Probably should be broken up into multiple issues |
+Issues are the primary unit of work for our development team. They provide a wealth of information about the work to be done, why we do it, and what it takes for the work to be accepted.
+
+## Estimation
+
+We apply Jira story point estimations based on effort/difficulty/complexity. We use a fibonacci scale for assigning estimations, .25, .5, 1, 2, 3, 5, 8, 13.
+
+## Changes to Estimates
 
 - During the initial estimate, if we uncover new things that _significantly_ expand
   the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
 - If an issue has already been estimated and work has begun on it, we generally do
-  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example).
+  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example). If this occurs, communication with the product manager is required.
+
+#### Note: This section needs to be reworked/discussed
+
 - As points increase on an issue, there is more necessity for a _design document_.
   This document outlines the plan of attack for addressing an issue. No code is
   required in this document. Instead, we're looking for a description of the
@@ -50,11 +52,7 @@ estimations:
   build a plan to fix it, you'll have built a well-defined mental map in your head
   and can demonstrate how your solution effectively addresses the issue with minimal
   added complexity.
-  - A design document is required for issues of 5 points and above.
-
-## GitHub issues
-
-Issues are the primary unit of work for our development team. They provide a wealth of information about the work to be done, why we do it, and what it takes for the work to be accepted.
+- A design document is required for issues of 5 points and above.
 
 ### What makes an issue ready for the development backlog?
 
@@ -70,64 +68,31 @@ Our Product team will often create issues to define new features. For these to b
 Issues that are considered "Ready" can be moved to the Backlog and prioritized
 appropriately.
 
+The definition of ready can be different depending on the product team.
+
 ## Pull requests
 
 Pull requests allow us to propose changes to our code.
 
 ### When creating a pull request:
 
-- We can omit the originator ticket number from the subject line since the link will activate in the pull request description.
-- It's also a nice convention to make the subject line describe what you're
-  fixing. For example, "Fix overview link color". We think of it like a commit
-  message, because ultimately it becomes one when we squash it.
-- We include "Closes #3771" or "Fixes #3771" in the pull request description,
-  where "3771" is the originator ticket. This will close the originator ticket
-  when the pull request is closed.
-- Pull requests that are not complete are unassigned and generally have "[WIP]"
-  (short for work in progress) in the title and/or utilize [GitHub's to do list functionality](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613).
-- When pull requests are ready, they should be assigned to someone.
-  - Generally speaking, any [pull request created by you](https://github.com/pulls?user%3Astratasan) that's not a work in progress should be assigned to someone for review.
+- It's also a nice convention to make the subject line describe what you're fixing. For example, "Fix overview link color". We think of it like a commit message, because ultimately it becomes one when we squash it. It's also a nice convention to start the subject line with a verb (e.g. Fixes, Implements, Resolves, Removes, etc.)
+- We include the Jira ticket ID in brackets in the PR description, which will be auto-linked to Jira via our GH integration. example: `[AP-123]`
+- Branches for issues should start with the Jira issue ID as well, as this links the branch to the Issue and puts the issue into "In Progress".
+  example: `git checkout -b AP-123-fix-bug`
+- Pull request bodies should include screenshots if viable and a description of changes.
+- Pull requests that are not complete are made as draft pull requests in GitHub.
+- When pull requests are ready, at least one reviewer should be requested.
+  - Generally speaking, any [pull request created by you](https://github.com/pulls?user%3Astratasan) should be assigned to you.
   - GitHub makes it easy to see [all pull requests currently assigned to you](https://github.com/pulls/assigned/?user%3Astratasan) or [pending your review](https://github.com/pulls/review-requested?user=stratasan).
-  - We want to assign the pull request to the person who is best qualified to
+  - We want to request a review of the pull request by the person who is best qualified to
     verify and test (like front end vs back end).
   - We assign a pull request to someone (vs. tagging, Slacking, etc) because
     it makes it more obvious who is owning that work.
-  - We pick just one person to assign the pull request to, which helps ensure
-    that someone reviews it.
-  - If the person we assigned to doesn’t have the time, they can ask another
-    person to take a look. Having a single assignee ensures that someone is
-    responsible for shepherding it through the pipeline, even if that means
-    kicking it to someone else.
-  - Assignment does not necessarily mean the assignee must review it, but
-    rather the assignee should determine who is best qualified to review the
-    pull request and merge it.
 - During each pull request review, we do a code review. ThoughtBot has a great
   description of [what a code review should consist of](https://github.com/thoughtbot/guides/tree/master/code-review).
-- When the pull request passes tests and says it can be merged, we generally try
-  to have at least another set of eyes on it before merging. We can deploy to
-  staging and verify the fix there. For now, whoever is doing the review / test,
-  does the deploying to staging, but eventually all developers will be able to.
-
-### More thoughts on the assignment of pull requests:
-
-1. Ideally, at all times pull requests have a single person assigned to them. This is to signal
-   who is necessary to finish this pull request.
-1. This means that if you are currently working on a pull request, you should assign yourself.
-1. If you feel the pull request is ready for other eyes, assign that person to the pull request. Consider
-   this a means of "pushing" the work to them, rather than requiring to "pull" it from
-   you.
-1. If, during the course of a code review, the reviewer feels there are necessary changes
-   required before merging, those comments should be delivered in either the form of an
-   official GitHub review or comments on particular lines in the "Files Changed" tab.
-   Doing one or both of these provides a meaningful artifact and provides status (e.g.
-   "Oh this pull request has been reviewed with 'Changes Requested'"). When this is done, the reviewer
-   should re-assign the pull request to the developer who created the pull request, again pushing to the
-   work back to them.
-1. Following the above guidelines means that at any given time, a developer can look at
-   the pull request list page and look for their icon to discover where they are needed.
-   This is better and more asynchronous than having to ask in Slack "does anybody need
-   anything from me?". It also makes minimizing the number of places our GitHub icon
-   appears our ongoing work.
+- If, during the course of a code review, the reviewer feels there are necessary changes required before merging, those comments should be delivered in either the form of an official GitHub review or comments on particular lines in the "Files Changed" tab. Doing one or both of these provides a meaningful artifact and provides status (e.g. "Oh this pull request has been reviewed with 'Changes Requested'").
+- A pull request must be reviewed before it is merged and pull requests merged to main are immediately deployed to production.
 
 ## Issues vs pull requests
 
