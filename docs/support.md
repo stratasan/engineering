@@ -2,13 +2,11 @@
 
 Our Slack channel `#support` embodies our team values “We’ll Figure it Out” and “Our Success is My Success”. We have documentation to help us use `#support` so we can continue to solve any issues together as a team and making sure things get triaged to the right person.
 
-## When to post to #support?
+## When do I post to #support?
 
-When support is needed from another team member, first try to find the right channel to post your question or problem in. For example, if something is an data question, the data channel would be best. If there is no more creamer, post in the `#coffee` channel. If you’d like to know about a feature release or a new product, `@prod` (which notifies members of the product team) or `#product` (the product channel) works well for reaching the product team. When unsure of who is best to answer the question, `#support` is the place to go.
-
-We make sure to thread questions and information around the issue in the channel so the conversation can live in one place. This way the engineering team can review the conversation and easily link to it. It will also help de-clutter the channel if more than one issue happens at the same time.
-
-Here are some helpful guidelines we follow around posting in the `#support` channel:
+Any data, technology, or application related question or issue that is urgent or could not be solved in other appropriate channels. In an effort to not overwhelm the #support channel, the following process for posting questions before triaging to #support should be followed.
+To minimize developer time and bandwidth on support issues, the Support Team will utilize the #Strategicdelivery private channel to field support questions. The @SOS user group is a group that the Support Team can use to make sure issues are seen immediately by the right people when needed. Remember to thread your questions and information around your issue so the conversation can be searched and tracked.
+If the question is not able to be answered in #Strategicdelivery or is not answered within a 20 minute period, it is acceptable to post in #support.
 
 ## Who to @tag so someone sees the message?
 
@@ -24,6 +22,7 @@ _Use cases_
 ### `@oncall`
 
 Urgent matter that needs an answer or solution ASAP due to a client request or user issue. Whoever is in `@oncall` will find the information for you and triage your request. Timebound questions welcome.
+`@oncall` contains the Product team, who will handle triage.
 
 _Use cases_
 
@@ -45,8 +44,10 @@ An emergency that needs a developer to stop what they’re working on to focus o
 
 _Use cases_
 
+- Only use IF the system is down, users are fully unable to proceed (no work around), all users are affected, immediate emergency resolution is needed
 - App is down
-- A confirmed bug is affecting application functionality that prevents people from doing their jobs (wrong data, bad links, etc). Tip: URLs and steps to reproduce the bug will be necessary.
+- A confirmed bug is affecting application functionality that prevents people from doing their jobs (wrong data, bad links, etc).
+- Tip: URLs and steps to reproduce the bug will be necessary.
 
   _Don’t use for_
 
@@ -57,6 +58,28 @@ _Use cases_
 
 Support team members can indicate they are looking into a question by replying in a thread or reacting with an eyes emoji (👀).
 
+## What happens to issues that require further work
+
+When a question requires a code change within an application or further research to be done to better understand the problem, a ticket should be created for tracking the issue. Once a ticket is created, all correspondence should be continued within the project management system (not in slack).
+
+If the issue is determined to be a bug:
+
+### Determine level of criticality:
+
+1. High/Critical (system down, unable to proceed, urgent, all users affected, immediate resolution needed)
+2. Medium (quick resolution needed, difficult/unable to proceed but not an urgent matter, client reported)
+3. Low (resolution eventually needed, internally identified, uncommon issue)
+4. Minor (no users affected, UX/UI issues, annoyance, typos)
+
+Bugs identified as 1 are NOT managed by Product. They are sent to engineering for immediate fix/report status for resolution. For bugs identified as 1, tag @dev911 for application. The technical team will be responsible for creating an issue in Jira.
+
+The work must be tracked in Jira and will be worked as the most important thing in the current sprint. Communication with Product about priority shift is required.
+
+Bugs identified as 2 - 4 are put in the normal workflow and will need to be prioritized by the Product Manager. This wrike bug form will be filled out by the reporter.used.
+
+Requests that are non-bugs, but are more general or functionality questions, are answered by the support team if possible. If no answer is found, the question is routed to the appropriate internal team to answer (Strategic Delivery, CS, etc).
+If additional assistance is needed, an intake request form should be completed by the reporter for Product review and prioritization.
+
 ## What do the emojis below support messages mean?
 
 Emoji tags are mostly done by developers, who review support questions/issues each week to learn from them.
@@ -66,8 +89,9 @@ Emoji tags are mostly done by developers, who review support questions/issues ea
 - :necktie: (👔) - Indicates a product-related question.
 - :fire_engine: (🚒) - Indicates a support question that requires developers to respond
 - :vhs: (📼) - Indicates a data-related question.
-- :robot_face: - A data question that a developer answered.
 - :coffin: (⚰️) - Post-mortem, something went horribly wrong and the app is unusable.
 - :evergreen_tree: (🌲) - Documentation that should be interesting for new folks.
 - :bug: (🐛) - An actual code-related issue has been found!
 - :documentation: - Indicates a question for which end-user or internal documentation should be written.
+- :read_the_manual: Documentation that would have answered the question already exists
+- :heavy_check_mark: ✅ Indicates that the issue has been resolved.
