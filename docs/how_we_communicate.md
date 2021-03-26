@@ -1,5 +1,7 @@
 # How We Communicate
 
+- Add RFCs?
+
 *As a general rule:*
 
 - *Slack channels are for* messages for teams that do not require an immediate
