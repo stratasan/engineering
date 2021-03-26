@@ -70,6 +70,11 @@ We know that every team member has a life outside of work and strive to respect 
 deadlines, but we work hard to set realistic expectations and believe that our best performance is achieved when working
 regular business hours.
 
+## Taking breaks
+
+With a job that is cognitively heavy, we support each other to take breaks when hitting a wall. We also think that rest
+and time away from work are important for recharging.
+
 ## Give back
 
 We encourage and value user group participation, open source contributions, mentoring other developers, and other forms
