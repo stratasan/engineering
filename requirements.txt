@@ -14,7 +14,7 @@ mkdocs-bootswatch==0.4.0
 mkdocs-material==4.6.3
 nltk==3.4.5
 pyasn1==0.4.2
-Pygments==2.5.2
+Pygments==2.7.4
 pymdown-extensions==6.3
 python-dateutil==2.6.1
 PyYAML==5.4
