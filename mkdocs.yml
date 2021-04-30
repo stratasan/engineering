@@ -4,12 +4,12 @@ pages:
   - Stratasan Core Values: core_values.md
   - Engineering Core Values: engineering_core_values.md
   - Anti-Patterns: engineering_anti_patterns.md
-  - How We Hire: how-we-hire.md
+  - How We Hire: how_we_hire.md
   - On-Boarding: onboarding.md
   - Development Process: development_process.md
   - Communication: how_we_communicate.md
   - Growth: growth.md
-  - Figuring It Out: figuring-it-out.md
+  - Figuring It Out: figuring_it_out.md
   - Providing Support: support.md
   - Follow-Through and Ownership: ownership.md
 theme: material
