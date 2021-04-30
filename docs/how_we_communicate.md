@@ -1,18 +1,16 @@
 # How We Communicate
 
-- Add RFCs?
+_As a general rule:_
 
-*As a general rule:*
-
-- *Slack channels are for* messages for teams that do not require an immediate response, think 1-3 hours. (see
+- _Slack channels are for_ messages for teams that do not require an immediate response, think 1-3 hours. (see
   our [Slack Usage Guide](https://docs.google.com/document/d/1a1713dQdCn-3_UYn4GGd4aPwOtJTtx2mlRu1cx7cyh8/edit)
   for ways to manage Slack usage).
-- *Texting a mobile device is for* messages that require a response as soon as possible (team members are strongly
+- _Texting a mobile device is for_ messages that require a response as soon as possible (team members are strongly
   encouraged to keep their mobile number on their Slack profile).
-- *Email is for* longer, cross-departmental conversations that should have a written, searchable record (e.g.,
+- _Email is for_ longer, cross-departmental conversations that should have a written, searchable record (e.g.,
   decisions, requests to access data).
-- *Confluence* is our go-to for internally documenting processes to share with other engineering team members.
-- *Video conferencing (Google Meets or Slack video calls) are for*
+- _Confluence_ is our go-to for internally documenting processes to share with other engineering team members.
+- _Video conferencing (Google Meets or Slack video calls) are for_
   real-time collaboration that requires high-bandwidth communication. It's also for staying well-connected to each
   other. Face-to-face communication is important to team cohesion.
 
@@ -38,10 +36,26 @@ most important developer conversations should occur via email or GitHub comments
 
 We document any decisions that are made and actions that are required so that we can share them with non-attendees.
 
+## Request for Comments (RFC)
+
+What is an RFC?
+
+RFC is short for “Request For Comments.” RFCs have their origin in the engineering teams that built the precursor to the Internet. It is a way to communicate proposals, gather feedback, and plan a course of action. It has been widely adopted by distributed, all-remote teams, particularly in the Open Source community.
+
+Why would we use RFCs?
+
+There are several things that we believe make RFCs necessary at Stratasan.
+Documenting the business justification for a feature, new process, or change in process is important to the long-term health of an organization.
+In a distributed workforce, we need to prioritize asynchronous discussions over synchronous discussions.
+Complex ideas require concentrated thought, which is difficult to do in a meeting with multiple people.
+If we write things down, they can be communicated multiple times, as opposed to scheduling many meetings for communication.
+
+[Here's some more info on RFCs](https://opensource.com/article/17/9/6-lessons-rfcs).
+
 ## Work hours
 
 Most Stratasan folks are based in the central time zone, with a growing number of people working from different times
-zones. Our team is generally available from 8am-5pm CST. We have flexibility to shift those eight hours earlier or
+zones. Our team is generally available from 8am-5pm CT. We have flexibility to shift those eight hours earlier or
 later, like 7am-4pm or even 9am-6pm.
 
 ## Distributed team communication
