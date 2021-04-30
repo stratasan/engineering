@@ -29,14 +29,14 @@ Issues are the primary unit of work for our development team. They provide a wea
 
 ## Estimation
 
-We apply Jira story point estimations based on effort/difficulty/complexity. We use a fibonacci scale for assigning estimations, .25, .5, 1, 2, 3, 5, 8, 13.
+We apply Jira story point estimations based on effort/difficulty/complexity. We use a fibonacci scale for assigning estimations 1, 2, 3, 5, 8, 13.
 
 ## Changes to Estimates
 
 - During the initial estimate, if we uncover new things that _significantly_ expand
   the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
 - If an issue has already been estimated and work has begun on it, we generally do
-  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example). If this occurs, communication with the product manager is required.
+  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 1 to a 3, for example). If this occurs, communication with the product manager is required.
 
 #### Note: This section needs to be reworked/discussed
 
