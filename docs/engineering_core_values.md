@@ -7,9 +7,9 @@ Our engineering team values are a subset of our company's core values, but they 
 - Dedicated learning
 - We follow the "Scout Rule", we strive to leave things better than we found them.
 - Technical practices
-    - refactoring
-    - Test Driven Development (TDD)
-    - automated testing (unit tests)
+  - refactoring
+  - Test Driven Development (TDD)
+  - automated testing (unit tests)
 - Infrastructure as code
 - Being a predominately Python shop, we are quite familiar
   with [the Zen of Python](https://www.python.org/dev/peps/pep-0020/). One of the tenets is _simple is better than
@@ -57,12 +57,6 @@ stronger.
 
 No one person has all the skills needed for every task. In addition to working alone, we often work together often in a
 style called [Mob Programming](https://mobprogramming.org).
-
-## Servant leadership
-
-Similar to the company value Everyone Makes the Coffee, we lead by example. We don't solely follow hierarchy or rank; we
-believe everyone has leadership abilities, so we aim to empower each other and make sure each team member is positioned
-to success.
 
 ## Have life outside work
 
