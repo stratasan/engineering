@@ -1,6 +1,6 @@
-# Hi!
+# Hello!
 
-This serves as a repository of Stratasan's Engineering culture. Our technical docs can be found in our internal docs project.
+This Engineering Manual serves as a repository of Stratasan's Engineering culture. Our technical docs can be found in Confluence.
 
 ## Why document culture?
 
@@ -8,6 +8,6 @@ This serves as a repository of Stratasan's Engineering culture. Our technical do
 * This document should help new team members understand how we work and make decisions.
 * All team members can contribute to this version-controlled document in the same way everyone contributes to our software.
 
-## Why is this public?
+## Why is this project public?
 
 Hopefully this document can give other teams a starting point for documenting their own culture. We are not, however, looking for pull-requests from non-team members :)

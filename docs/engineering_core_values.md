@@ -1,23 +1,18 @@
 # Engineering Core Values
 
-Our engineering team values are a subset of our company's core values, but they have their own distinct flavor.
+Our engineering team values are a subset of our company's core values, and they have their own distinct flavor.
 
 ## Code is our craft
 
-- Dedicated learning
-- We follow the "Scout Rule", we strive to leave things better than we found them.
-- Technical practices
-  - refactoring
+- We dedicate time to learning.
+- We aim to follow the "Scout Rule" and strive to leave code and documentation better than we found them.
+- Technical practices are important:
+  - Refactoring
   - Test Driven Development (TDD)
-  - automated testing (unit tests)
-- Infrastructure as code
-- Being a predominately Python shop, we are quite familiar
-  with [the Zen of Python](https://www.python.org/dev/peps/pep-0020/). One of the tenets is _simple is better than
-  complex_. This manifests itself in
-  [boring stacks](http://www.expatsoftware.com/Articles/happiness-is-a-boring-stack.html) and by avoiding
-  over-engineered solutions.
-- **Better, not best** - We recognize software development can be rife with compromise and sometimes the "best practice"
-  isn't the most helpful or may not exist. So we will ship code with the best information we have at the time.
+  - Automated testing (unit tests)
+- We believe in infrastructure as code.
+- Being a predominately Python shop, we are familiar with [the Zen of Python](https://www.python.org/dev/peps/pep-0020). One of the tenets is _simple is better than complex_. This manifests itself in [boring stacks](http://www.expatsoftware.com/Articles/happiness-is-a-boring-stack.html) and by avoiding over-engineered solutions.
+- We recognize software development can be rife with compromise and sometimes the "best practice" isn't the most helpful or may not exist. So we will ship code with the best information we have at the time.
 
 ## Continuous integration and deployment (CI/CD)
 
@@ -27,19 +22,11 @@ minimum marketable features that we can get in front of users fast, so we can im
 We believe in shipping early and shipping often. What makes this approach possible is an automated test-first workflow
 that feeds in to a continuous integration and continuous deployment (CI/CD).
 
-- Add DevOps values? Follow up after the book Accelerate is completed.
-
-## Values beyond code
-
-There are things beyond code that we value:
-
-- Everybody does backlog refinement
-- Communication (why, intentions?)
-- Documentation is a first-class citizen
+[comment]: <> (- Add DevOps values? Follow up after the book Accelerate is completed.)
 
 ## Embrace diversity
 
-This extends beyond demographics, and into background and into lived experiences. As DeMarco and Lister point out
+This extends beyond demographics, and into background and into lived experiences. As DeMarco and Lister points out
 in [Peopleware](https://www.amazon.com/s?ie=UTF8&field-keywords=peopleware&index=blended&link_code=qs&sourceid=Mozilla-search&tag=wwwcanoniccom-20)
 , a diverse team can send a "clear signal that it’s okay not to be a clone, okay not to fit into the corporate mold of a
 Uniform Plastic Person."
@@ -49,9 +36,9 @@ to [improve quality](http://www.npr.org/2014/03/21/292225798/does-diversity-on-r
 .
 
 We’re stronger because of our customer-first culture and our inclusive work environment. We’re an equal opportunity
-employer. All applicants will be considered for employment without attention to race, color, religion, sex, sexual
-orientation, gender identity, national origin, veteran, or disability status. We believe our differences truly make us
-stronger.
+employer. All applicants will be considered for employment without attention to race, religion, national origin, age,
+sex, sexual orientation, gender identity, pregnancy, familial status (having children), disability status, veteran
+status, or genetic information. We believe our differences truly make us stronger.
 
 ## We're stronger together
 
@@ -64,10 +51,12 @@ We know that every team member has a life outside of work and strive to respect 
 deadlines, but we work hard to set realistic expectations and believe that our best performance is achieved when working
 regular business hours.
 
-## Taking breaks
+## Take breaks
 
-With a job that is cognitively heavy, we support each other to take breaks when hitting a wall. We also think that rest
-and time away from work are important for recharging.
+With a job that is cognitively heavy, we support each other to take breaks when "hitting a wall". We also think that
+rest and time away from work are important for recharging. Stratasan also provides the second Friday of each month as a
+day to completely step away from work to recharge, rest, run errands, do something nice for yourself, etc. We call this
+day "Second Fridays".
 
 ## Give back
 
