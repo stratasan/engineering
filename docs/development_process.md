@@ -1,5 +1,7 @@
 # Development Process
 
+Note: This is a living document, subject to change. We often evaluate our processes and are open to experimentation in the interests of always improving.
+
 ## Approach
 
 We deploy with continuous delivery. We plan work in sprints. We feel that when a bit of work is ready to go, it shouldn't be held back due to a timeline.
@@ -7,6 +9,13 @@ We deploy with continuous delivery. We plan work in sprints. We feel that when a
 We communicate what work has been done through the Product team putting together release notes every week and talking about what features have been added over the course of the week. If it is a big feature and people want to use it right away, we will let the company know outside of the product release notes when it is live.
 
 While we deploy early and often, that does not mean we like to provide a buggy or unstable experience for users. We liberally use [feature flags](https://en.wikipedia.org/wiki/Feature_toggle) to separate the concerns of deploying code from releasing it to users. As we test and gather feedback about new functionality in production, we communicate with the Product team about the state of work-in-progress. In a perfect world, the release of a product or feature globally across our applications is a non-event for the development team.
+
+## Our Process
+
+1. Refinement: We get clarity on issues in the backlog and estimate points of effort for each issue. We map out code changes and think about the scope of the change during refinement as well. Issues must have a non-technical explanation as well.
+1. Planning: During sprint planning developers and product bring issues from the backlog into the current sprint based on capacity.
+1. Review: Where developers demo new changes to stakeholders. Product will build release notes from these demos. We review merged PRs from the previously completed sprint. We adjust capacity and points if necessary for the following sprint.
+1. Retro: We reflect on what went well and what we could improve based on the previously completed sprint. We then create action items to make our work easier in future sprints.
 
 ## Delivery expectations
 
@@ -29,16 +38,14 @@ Issues are the primary unit of work for our development team. They provide a wea
 
 ## Estimation
 
-We apply Jira story point estimations based on effort/difficulty/complexity. We use a fibonacci scale for assigning estimations, .25, .5, 1, 2, 3, 5, 8, 13.
+We apply Jira story point estimations based on effort/difficulty/complexity. We use a fibonacci scale for assigning estimations 1, 2, 3, 5, 8, 13.
 
 ## Changes to Estimates
 
 - During the initial estimate, if we uncover new things that _significantly_ expand
   the scope of the original issue, we will split it into multiple issues (maybe convert the original issue to an epic) and those new issues get estimates.
 - If an issue has already been estimated and work has begun on it, we generally do
-  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 0.5 to a 3, for example). If this occurs, communication with the product manager is required.
-
-#### Note: This section needs to be reworked/discussed
+  not modify the issue unless it becomes apparent that the work will be considerably more complex (going from a 1 to a 3, for example). If this occurs, communication with the product manager is required.
 
 - As points increase on an issue, there is more necessity for a _design document_.
   This document outlines the plan of attack for addressing an issue. No code is
@@ -52,11 +59,10 @@ We apply Jira story point estimations based on effort/difficulty/complexity. We 
   build a plan to fix it, you'll have built a well-defined mental map in your head
   and can demonstrate how your solution effectively addresses the issue with minimal
   added complexity.
-- A design document is required for issues of 5 points and above.
 
 ### What makes an issue ready for the development backlog?
 
-Our Product team will often create issues to define new features. For these to be considered development-ready, the following requirements must be met:
+Our Product team will often create issues to define new features. For these to be considered development-ready, the following requirements are considered our "Definition of Ready" and must be met:
 
 - The "Why" must be clear.
 - [Acceptance criteria](https://nomad8.com/acceptance_criteria/) must be provided.
@@ -77,9 +83,9 @@ Pull requests allow us to propose changes to our code.
 ### When creating a pull request:
 
 - It's also a nice convention to make the subject line describe what you're fixing. For example, "Fix overview link color". We think of it like a commit message, because ultimately it becomes one when we squash it. It's also a nice convention to start the subject line with a verb (e.g. Fixes, Implements, Resolves, Removes, etc.)
-- We include the Jira ticket ID in brackets in the PR description, which will be auto-linked to Jira via our GH integration. example: `[AP-123]`
+- We include the Jira ticket ID in brackets in the PR description, which will be auto-linked to Jira via our GH integration. Example: `[AP-123]`
 - Branches for issues should start with the Jira issue ID as well, as this links the branch to the Issue and puts the issue into "In Progress".
-  example: `git checkout -b AP-123-fix-bug`
+  Example: `git checkout -b AP-123-fix-bug`
 - Pull request bodies should include screenshots if viable and a description of changes.
 - Pull requests that are not complete are made as draft pull requests in GitHub.
 - When pull requests are ready, at least one reviewer should be requested.
@@ -87,7 +93,7 @@ Pull requests allow us to propose changes to our code.
   - GitHub makes it easy to see [all pull requests currently assigned to you](https://github.com/pulls/assigned/?user%3Astratasan) or [pending your review](https://github.com/pulls/review-requested?user=stratasan).
   - We want to request a review of the pull request by the person who is best qualified to
     verify and test (like front end vs back end).
-  - We assign a pull request to someone (vs. tagging, Slacking, etc) because
+  - We assign someone as a reviewer for a pull request (vs. tagging, Slacking, etc) because
     it makes it more obvious who is owning that work.
 - During each pull request review, we do a code review. ThoughtBot has a great
   description of [what a code review should consist of](https://github.com/thoughtbot/guides/tree/master/code-review).
@@ -110,10 +116,8 @@ perspective. They should be written for other developers with the express intent
 will be many ways to address the Issue and it's our job to make the most-correct decision
 for the business. This involves balancing these attributes (mostly in this order):
 
-- Read- and maintainability of the changes. Can other developers understand what's going on? Difficult and/or subtle changes likely require _more_ explanation.
+- Readability and maintainability of the changes. Can other developers understand what's going on? Difficult and/or subtle changes likely require _more_ explanation.
 - Does it sufficiently address the issue and how have you demonstrated that? Have you communicated edge cases with stakeholders? Do you understand the edge cases?
-- Have you appropriately balanced the value of the pull request with the cost of it? As an extreme example, a one-line template change does not require introducing a new template engine.
-- Does it make sense from the perspective of the codebase? If existing functionality exists elsewhere in the codebase, do you know about it, followed those patterns and/or built an abstraction to cover both? If you didn't build an abstraction layer, why not? Hint, it's not always useful to build abstractions.
 
 As we write and submit pull requests, keep the above in the back of your mind. After all, it is
 not our job to write code but rather solve business problems.
