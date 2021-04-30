@@ -8,6 +8,6 @@ responded to your reviews.
 
 Taking an issue, epic, or product makes it your responsibility. Work to ensure
 your changes correctly address the product need. This may include getting
-feedback from product or users in a staging or beta environment.
+feedback from Product or users in a staging or beta environment.
 
 Especially for externally-generated issues, follow-up via the Product or Customer Success teams to tell them of the changes.
