@@ -76,7 +76,7 @@ Pull requests allow us to propose changes to our code.
 ### When creating a pull request
 
 - It's also a nice convention to make the subject line describe what you're fixing. For example, "Fix overview link color". We think of it like a commit message, because ultimately it becomes one when we squash it. It's also a nice convention to start the subject line with a verb (e.g. Fixes, Implements, Resolves, Removes, etc.)
-- We include the Jira ticket ID in brackets in the PR description, which will be auto-linked to Jira via our GH integration. Example: `[AP-123]`
+- We include the Jira ticket ID in brackets in the pull request description, which will be auto-linked to Jira via our GitHub integration. Example: `[AP-123]`
 - Branches for issues should start with the Jira issue ID as well, as this links the branch to the Issue and puts the issue into "In Progress".
   Example: `git checkout -b AP-123-fix-bug`
 - Pull request bodies should include screenshots if viable and a description of changes.
