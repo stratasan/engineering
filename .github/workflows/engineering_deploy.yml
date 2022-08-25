@@ -14,12 +14,20 @@ jobs:
   deploy:
     name: "Deploy"
     runs-on: ubuntu-18.04
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@master
       - name: setup python
         uses: actions/setup-python@v1
         with:
           python-version: '3.7.x'
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::196656902399:role/gh_engineering_repo
+          aws-region: us-east-1
       - name: build site
         run: |
           pip install -r requirements.txt
@@ -27,6 +35,3 @@ jobs:
       - name: deploy
         run: |
           aws s3 sync ./site s3://engineering.stratasan.com/ --acl public-read --cache-control "public,max-age=86400"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
