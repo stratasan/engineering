@@ -16,7 +16,6 @@ nltk==3.6.6
 pyasn1==0.4.2
 Pygments==2.7.4
 pymdown-extensions==6.3
-python-dateutil==2.6.1
 PyYAML==5.4
 rsa==4.7
 six==1.11.0
