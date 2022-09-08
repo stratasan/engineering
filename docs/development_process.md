@@ -78,6 +78,7 @@ Pull requests allow us to propose changes to our code.
 - It's also a nice convention to make the subject line describe what you're fixing. For example, "Fix overview link color". We think of it like a commit message, because ultimately it becomes one when we squash it. It's also a nice convention to start the subject line with a verb (e.g. Fixes, Implements, Resolves, Removes, etc.)
 - We include the Jira ticket ID in brackets in the pull request description, which will be auto-linked to Jira via our GitHub integration. Example: `[AP-123]`
 - Pull request bodies should include screenshots if viable and a description of changes.
+- Branches for issues should start with the Jira issue ID
 - Pull requests that are not complete are made as draft pull requests in GitHub.
 - When pull requests are ready, at least one reviewer should be requested.
   - Generally speaking, any [pull request created by you](https://github.com/pulls?user%3Astratasan) should be assigned to you.
