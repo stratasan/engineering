@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.7.x'
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::196656902399:role/gh_engineering_repo
           aws-region: us-east-1
